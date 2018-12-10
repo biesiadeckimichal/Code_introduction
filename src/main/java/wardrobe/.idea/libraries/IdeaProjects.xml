@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="IdeaProjects">
+    <CLASSES>
+      <root url="file://$USER_HOME$/IdeaProjects" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$USER_HOME$/IdeaProjects/1_for/src" />
+      <root url="file://$USER_HOME$/IdeaProjects/2_while/src" />
+      <root url="file://$USER_HOME$/IdeaProjects/for/src" />
+    </SOURCES>
+  </library>
+</component>
