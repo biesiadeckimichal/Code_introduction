@@ -1,3 +1,5 @@
+package chat;
+
 public class Case8 {
     public static void main(String[] args) {
         String text = "aaabbbbbsd";

@@ -3,10 +3,7 @@ package abstractclasses.powtorka.shape;
 public abstract class Shape {
     private String color;
 
-    public abstract int getArea();
-    public abstract int getPerimeter();
-
-    public Shape(String color) {
+    public Shape (String color) {
         this.color = color;
     }
 
@@ -14,4 +11,10 @@ public abstract class Shape {
         return color;
     }
 
+    public void setColor(String color) {
+        this.color = color;
+    }
+
+    public abstract int getArea();
+    public abstract int getPerimeter();
 }

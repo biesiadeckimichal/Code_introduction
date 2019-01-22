@@ -46,6 +46,7 @@ public class Exercise_1 {
         number_list.add("2");
         number_list.add("3");
 
+
         System.out.println("9");
 
         Collections.copy(color_list, number_list);
@@ -95,6 +96,9 @@ public class Exercise_1 {
         System.out.println(c4);
 
         c4.addAll(c1);
+        System.out.println(c4);
+
+        c4.clear();
         System.out.println(c4);
 
 
