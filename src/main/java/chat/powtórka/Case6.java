@@ -1,21 +1,18 @@
-package chat;
-
-// czy slowo jest palindromem
+package chat.powtórka;
 
 public class Case6 {
     public static void main(String[] args) {
         String text = "kajak";
-    // mozna dodac zmienna last char
-    // int lastChar = text.length() - 1;
-        int isPalindrome = 1;
+        boolean isPalindrome = true;
         for (int i = 0; i < text.length(); i++) {
-            if ((text.charAt(i) != text.charAt(text.length() - 1 - i))) {
-                isPalindrome = 0;
+            if (text.charAt(i) != text.charAt(text.length() - i - 1)) {
+                isPalindrome = false;
             }
         }
-        if (isPalindrome == 1) {
+
+        if (isPalindrome == true) {
             System.out.println(text + " jest palindromem");
-        } else  {
+        } else {
             System.out.println(text + " nie jest palindromem");
         }
     }

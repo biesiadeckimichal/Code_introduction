@@ -1,5 +1,7 @@
 package chat;
 
+//litera z największą ilością wystąpień//
+
 public class Case8 {
     public static void main(String[] args) {
         String text = "aaabbbbbsd";

@@ -1,4 +1,4 @@
-package primitives;
+package a_primitives;
 
 public class Main {
     public static void main(String[] args) {
