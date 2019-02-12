@@ -7,7 +7,7 @@
 // import javax.xml.bind.JAXBException;
 // import java.io.IOException;
 //
-// public class Main {
+// public class Chair {
 //     // maven domyslnie dziala dla java do version 5, aby uzyc funkcjonalnosci
 //     // np javy 8 jak strumienie, musimy dodac taka funkcjonalnosc, najlatwiej jest
 //     // wygooglowac i dodac do zakladki m maven...

@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 // Klasa reprezentuje interfejs użytkownika na potrzeby obsługi obiektu typu powtorka.
 public class WardrobeUI {
-    // do pola będzie przypisany scanner, którego będziemy używali do odczytywania wartości z konsoli
+    // do pola będzie przypisany d_scanner, którego będziemy używali do odczytywania wartości z konsoli
     private Scanner scanner;
     // do pola będzie przypisana szafa, którą będziemy zarządzali
     private Wardrobe wardrobe;
@@ -12,7 +12,7 @@ public class WardrobeUI {
     // Tworząc nowy obiekt typu WardrobeUI
     public WardrobeUI() {
         // ustawimy wartości pól:
-        // scanner to będzie nowy obiekt typu Scanner
+        // d_scanner to będzie nowy obiekt typu Scanner
         scanner = new Scanner(System.in);
         // polu powtorka przypiszemy pustą szafę.
         wardrobe = new Wardrobe();

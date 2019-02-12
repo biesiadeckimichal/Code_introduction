@@ -31,7 +31,7 @@ public class Main {
 //        tak musialaby wygladac skladnia dla niestatycznej metody
 //        czyli takiej ktora wymaga obiektu
 //        a wiec stosujemy ja gdy chcemy sie dostac do jakiegos np pola
-//        Main main = new Main();
+//        Chair main = new Chair();
 //        main.zadanie5();
 
 
